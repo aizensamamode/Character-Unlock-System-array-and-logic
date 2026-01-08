@@ -21,7 +21,7 @@ public class gptcode {
         // Create items (you can add more without changing logic)
         Item[] box = {
             new Item("King Van"),
-            new Item("Darklord Mark"),
+            new Item("Darklord Mark"), 
             new Item("Soldiers")
         };
 
