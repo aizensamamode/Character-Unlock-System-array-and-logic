@@ -9,6 +9,9 @@ public class Main{
     System.out.println("1.) STORAGE ");
     int number = scanner.nextInt();
     return number;
+
+
+
     }
     public static void main(String[] args) {
         Random random = new Random();
@@ -31,15 +34,18 @@ public class Main{
         if(number == 1){
     
             Submain picker = listbox[random.nextInt(listbox.length)];
+           
+            
             if(picker.locker == false){
             picker.locker = true;
-            System.out.println(picker.name +" | "+ picker.locker);
+            System.out.println(picker.name +" | "+ picker.getlocked());
             submains.add(new Submain(picker.name, picker.locker));
             }
             else{
-            System.out.println(picker.name +" | "+ picker.locker);
+            System.out.println(picker.name +" | "+ picker.getlocked());
             }
-            System.out.println(submains);   
+            System.out.println(submains);
+             
         }
         // number 2
         if(number == 2){
