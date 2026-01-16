@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-// Class to represent each item in the wheel
+// Class to represent each item in the wheelss
 class Item {
     String name;
     boolean unlocked;
